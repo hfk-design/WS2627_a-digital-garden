@@ -20,24 +20,35 @@
   - you can render the canvas with play
 
 This is a comment:
-``createCanvas(400, 400);``
+<code>// this is a comment – it is ignored by the computer</code>
   
 **2. Frame-based: the canvas is rerenderd in 30 frames /s**
-``console.log(frameCount);``
-  - Understand the difference between setup vs draw
+- Understand the difference between setup vs draw
+  - remove the background and see how the circle moves each frame with the mouse position
 
-**3. **
-  - Think in rule based instructions for your drawing
-  - Code is read from top to bottom
-  - Bugs & erros are a big part of coding
-
-**4. Draw your first circle**
-- You are drawing on the coordinate system
-
+**3. How to draw shapes**
+- How to draw within a coordinate system
+- Different shapes
+ 
 How to draw a circle: 
-``circle(positionX, positionY, width, height);``
+<code>circle(positionX, positionY, width, height);</code>
 
+- References for shapes
+
+**4. Colors**
+
+>> Lunch Break
+>> Try out exercise
+
+**5. Interactions**
+**6. Variables**
+
+
+
+**4. Good to know**
+- You can find all the references here: https://p5js.org/reference/
+- Code is read from top to bottom
+- Bugs & erros are a big part of coding
 
 ## 5min | KI-Diskussion 
-
 13–17:00 | Tutorium – p5.js Basics 
